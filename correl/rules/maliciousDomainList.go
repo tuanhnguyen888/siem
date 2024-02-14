@@ -16,7 +16,7 @@ const (
 
 )
 
-var maliciousDomainList = readFileList("D:\\doan_siem\\correl\\rules\\domain_black")
+var maliciousDomainList = readFileList("..\\rules\\domain_black")
 
 
 func IsMaliciousURL(inputURL string) (b bool, alert string,level string) {

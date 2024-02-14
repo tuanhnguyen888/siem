@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-var maliciousIPList =  readFileList("D:\\doan_siem\\correl\\rules\\ip_ignore.txt")
+var maliciousIPList =  readFileList("..\\rules\\ip_ignore.txt")
 
 func IsMaliciousIP(ip string) (b bool, alert string,level string)  {
 	parsedIP := net.ParseIP(ip)
