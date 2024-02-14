@@ -1,0 +1,7 @@
+/mongodbService/data/*
+/kafkService/kafka/*
+/kafkService/kafka2/*
+/kafkService/kafka3/*
+/kafkService/zoo/*
+/data
+/project

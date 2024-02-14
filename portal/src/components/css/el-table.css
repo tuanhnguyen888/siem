@@ -1,0 +1,119 @@
+.title-item {
+  padding-left: 12px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: #181d21;
+  /*border-left: 1px solid white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white; */
+  font-weight: 600;
+  color: white;
+}
+
+.event-title-id {
+  width: 209.5px;
+}
+.event-title-localtime {
+  width: 180px;
+}
+.event-title-source {
+  width: 120px;
+}
+.event-title-utctime {
+  width: 180px;
+}
+.event-title-data {
+  width: calc(100% - 689.5px);
+  /* border-right: 1px solid white; */
+}
+
+.alert-title-id {
+  width: 209.5px;
+}
+.alert-title-eventid {
+  width: 210px;
+}
+.alert-title-level {
+  width: 60px;
+}
+.alert-title-message {
+  width: 230px;
+}
+.alert-title-localtime {
+  width: 160px;
+}
+.alert-title-data {
+  width: calc(100% - 869.5px);
+  /* border-right: 1px solid white; */
+}
+
+.config-title-inputname {
+  width: 179.5px;
+}
+.config-title-protocol {
+  width: 150px;
+}
+.config-title-logtype {
+  width: 150px;
+}
+.config-title-created {
+  width: 160px;
+}
+.config-title-updated {
+  width: 160px;
+}
+.config-title-actions {
+  width: 100px;
+}
+.config-title-properties {
+  width: calc(100% - 899.5px);
+  /* border-right: 1px solid white; */
+}
+
+.data {
+  overflow: hidden;
+  cursor: pointer;
+  color: #fffb00;
+  text-decoration: underline;
+}
+.data:hover {
+  color: #1900ff;
+}
+:deep(.el-table__header) {
+  display: none;
+}
+/* :deep(.el-table tr) {
+  background-color: #363c41;
+}
+
+
+
+
+:deep(.el-table:not(.el-table--border) .el-table__cell) {
+  border-right: solid 1px white;
+}
+:deep(.el-table__row .el-table__cell:first-child) {
+  border-left: solid 1px white !important;
+}*/
+:deep(.el-table__cell) {
+  color: white;
+}
+:deep(
+    .el-table--enable-row-hover .el-table__body tr:hover > td.el-table__cell
+  ) {
+  background-color: #92979e;
+}
+:deep(.el-table__row:nth-child(2n)) {
+  background-color: #181d21;
+}
+
+:deep(.el-table__row:nth-child(2n + 1)) {
+  background-color: #363c41;
+}
+:deep(.el-table td.el-table__cell, .el-table th.el-table__cell.is-leaf) {
+  border-bottom: none;
+}
+:deep(.el-table__inner-wrapper::before) {
+  background-color: unset;
+}
