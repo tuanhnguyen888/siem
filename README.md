@@ -3,14 +3,14 @@
 
 ## Mục đích
 
-Script này được tạo để tự động hóa quá trình build và chạy Docker Compose cho các project của bạn.
+Script này được tạo để tự động hóa quá trình build và chạy Docker Compose cho các project .
 
 ## Yêu Cầu
 
-1. Docker Compose đã được cài đặt trên máy tính của bạn.
+1. Docker Compose đã được cài đặt .
+2. Chạy trên hệ điều hành linux
 
 ## Sử Dụng
-
 
 1. Gán quyền thực thi cho script.
 
